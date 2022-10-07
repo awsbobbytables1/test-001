@@ -16,14 +16,7 @@ the official image, or if you want to use it to build your own customized XGBoos
 Table of Contents
 -----------------
 
-#. `Getting Started <#getting-started>`__
-#. `Building your Image <#building-your-image>`__
-#. `Running the tests <#running-the-tests>`__
 
-Getting Started
----------------
-
-Prerequisites
 ~~~~~~~~~~~~~
 
 Make sure you have installed all of the following prerequisites on your
