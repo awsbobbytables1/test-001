@@ -13,11 +13,6 @@ see `Python SDK <https://github.com/aws/sagemaker-python-sdk>`__.
 For end users, this repository is typically of interest if you need implementation details for
 the official image, or if you want to use it to build your own customized XGBoost Framework image.
 
-Table of Contents
------------------
-
-
-~~~~~~~~~~~~~
 
 Make sure you have installed all of the following prerequisites on your
 development machine:
